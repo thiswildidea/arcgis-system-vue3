@@ -1,0 +1,19 @@
+@import './reset.scss';
+@import './variables.scss';
+body,
+html,
+#app {
+  height: $mapbodyheight;
+  width: $mapbodywidth;
+}
+::-webkit-scrollbar {
+  width: .5rem;
+  height: .5rem;
+}
+::-webkit-scrollbar-track {
+  border-radius: 1px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background: rgba(0, 0, 0, .2);
+}
